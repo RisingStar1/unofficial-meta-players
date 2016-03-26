@@ -1,0 +1,21 @@
+{
+ "name": "SALTS Search Activate (Q)",
+ "plugin": "plugin.video.salts",
+ "id": "provider.openeleq.salts.search.activate",
+ "movies": [
+  [
+   {
+    "link": "plugin://plugin.video.salts/?mode=search_results&section=Movies&query={title}",
+    "action": "ACTIVATE"
+   }
+  ]
+ ],
+ "tvshows": [
+  [
+   {
+    "link": "plugin://plugin.video.salts/?mode=search_results&section=TV&query={clearname}",
+    "action": "ACTIVATE"
+   }
+  ]
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ "name": "[COLOR FFD15FEE]Quasar[/COLOR] Direct Activate Helix (Q)",
+ "plugin": "plugin.video.pulsar",
+ "id": "provider.openeleq.quasar.links.helix",
+ "movies": [
+  [
+   {
+    "link": "plugin://plugin.video.pulsar/movie/{tmdb}/links",
+    "action": "ACTIVATE"
+   }
+  ]
+ ],
+ "tvshows": [
+  [
+   {
+    "link": "plugin://plugin.video.pulsar/show/{tmdb}/season/{season}/episode/{episode}/links",
+    "action": "ACTIVATE"
+   }
+  ]
+ ]
+}

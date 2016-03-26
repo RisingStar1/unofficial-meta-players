@@ -1,0 +1,21 @@
+{
+ "name": "Specto Search Activate (Q)",
+ "plugin": "plugin.video.specto",
+ "id": "provider.openeleq.specto.direct.activate",
+ "movies": [
+  [
+   {
+    "link": "plugin://plugin.video.specto/?action=movieSearch&query={title}",
+    "action": "ACTIVATE"
+   }
+  ]
+ ],
+ "tvshows": [
+  [
+   {
+    "link": "plugin://plugin.video.specto/?action=tvSearch&query={clearname}",
+    "action": "ACTIVATE"
+   }
+  ]
+ ]
+}

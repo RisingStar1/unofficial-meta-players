@@ -1,0 +1,23 @@
+{
+ "name": "The Royal We Search Direct Activate (Q)",
+ "plugin": "plugin.video.theroyalwe",
+ "id": "provider.openeleq.theroyalwe.search.direct.activate",
+ "movies": [
+  [
+   {
+    "link": "plugin://plugin.video.theroyalwe/?mode=movie_search",
+    "steps": ["keyboard: {title}","{title}"],
+    "action": "ACTIVATE"
+   }
+  ]
+ ],
+ "tvshows": [
+  [
+   {
+    "link": "plugin://plugin.video.theroyalwe/?mode=tv_search",
+    "steps": ["keyboard: {clearname}","{clearname}","Season {season}","{episode}.*{title}"],
+    "action": "ACTIVATE"
+   }
+  ]
+ ]
+}

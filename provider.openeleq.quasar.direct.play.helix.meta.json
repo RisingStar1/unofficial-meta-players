@@ -1,0 +1,21 @@
+{
+ "name": "[COLOR FFD15FEE]Quasar[/COLOR] Direct Play Helix (Q)",
+ "plugin": "plugin.video.pulsar",
+ "id": "provider.openeleq.quasar.direct.play.helix",
+ "movies": [
+  [
+   {
+    "link": "plugin://plugin.video.pulsar/movie/{tmdb}/play",
+    "action": "PLAY"
+   }
+  ]
+ ],
+ "tvshows": [
+  [
+   {
+    "link": "plugin://plugin.video.pulsar/show/{tmdb}/season/{season}/episode/{episode}/play",
+    "action": "PLAY"
+   }
+  ]
+ ]
+}

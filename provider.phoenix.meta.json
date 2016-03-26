@@ -1,0 +1,46 @@
+{
+    "name": "Phoenix",
+    "plugin": "plugin.video.phstreams",
+	"movies": [
+        [
+            {
+                "link": "plugin://plugin.video.phstreams/?action=addSearch&url={title}",
+				"steps": [
+					".*"
+				],
+				"action": "ACTIVATE"
+            }
+        ]
+	],
+    "tvshows": [
+        [
+            {
+                "link": "plugin://plugin.video.phstreams/?action=addSearch&url={clearname}",
+				"steps": [
+					".*{clearname}",
+					".*$${season}.*",
+					".*S{season:02d}E{episode:02d}"
+                ],
+				"action": "ACTIVATE"
+            },
+			{
+                "link": "plugin://plugin.video.phstreams/?action=addSearch&url={clearname}",
+				"steps": [
+					".*{clearname}",
+					".*",
+					".*{episode:02d}"
+                ],
+				"action": "ACTIVATE"
+            },
+			{
+                "link": "plugin://plugin.video.phstreams/?action=addSearch&url={clearname}",
+				"steps": [
+					".*{clearname}.*",
+					".*{season}$$.*",
+					".*{episode:02d}$$.*"
+                ],
+				"action": "ACTIVATE"
+            }						
+        ]
+    ]
+}

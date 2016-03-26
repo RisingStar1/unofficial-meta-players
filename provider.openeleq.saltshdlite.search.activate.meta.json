@@ -1,0 +1,21 @@
+{
+ "name": "Salts HD Lite Search Activate (Q)",
+ "plugin": "plugin.video.saltshd.lite",
+ "id": "provider.openeleq.saltshdlite.search.activate",
+ "movies": [
+  [
+   {
+    "link": "plugin://plugin.video.saltshd.lite/?mode=search_results&section=Movies&query={title}",
+    "action": "ACTIVATE"
+   }
+  ]
+ ],
+ "tvshows": [
+  [
+   {
+    "link": "plugin://plugin.video.saltshd.lite/?mode=search_results&section=TV&query={clearname}",
+    "action": "ACTIVATE"
+   }
+  ]
+ ]
+}

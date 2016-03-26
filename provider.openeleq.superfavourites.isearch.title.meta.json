@@ -1,0 +1,21 @@
+{
+ "name": "Super Favourites' iSearch Title",
+ "plugin": "plugin.program.super.favourites",
+ "id": "provider.openeleq.superfavourites.isearch.title",
+ "movies": [
+  [
+   {
+    "link": "plugin://plugin.program.super.favourites/?mode=0&keyword={title}",
+    "action": "ACTIVATE"
+   }
+  ]
+ ],
+ "tvshows": [
+  [
+   {
+    "link": "plugin://plugin.program.super.favourites/?mode=0&keyword={title}",
+    "action": "ACTIVATE"
+   }
+  ]
+ ]
+}

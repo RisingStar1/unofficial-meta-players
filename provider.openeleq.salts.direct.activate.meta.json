@@ -1,0 +1,21 @@
+{
+ "name": "SALTS Direct Activate (Q)",
+ "plugin": "plugin.video.salts",
+ "id": "provider.openeleq.salts.direct.activate",
+ "movies": [
+  [
+   {
+    "link": "plugin://plugin.video.salts/?title={title}&video_type=Movie&trakt_id={trakt}&mode=get_sources&dialog=True&year={year}",
+    "action": "ACTIVATE"
+   }
+  ]
+ ],
+ "tvshows": [
+  [
+   {
+    "link": "plugin://plugin.video.salts/?ep_airdate={firstaired}&trakt_id={trakt}&episode={episode}&mode=get_sources&dialog=True&title={showname}&ep_title={title}&season={season}&year={year}&video_type=Episode",
+    "action": "ACTIVATE"
+   }
+  ]
+ ]
+}
