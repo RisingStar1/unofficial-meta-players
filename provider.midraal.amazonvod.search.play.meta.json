@@ -6,7 +6,7 @@
   [
    {
     "link": "plugin://plugin.video.amazon-test",
-    "steps": ["Search","@keyboard: {title}","{title}"],
+    "steps": ["Search","@keyboard: {title}","(?:{title}($$.*)+|{title|replace(&colon;, -)}($$.*)+)"],
     "action": "PLAY"
    }
   ]
