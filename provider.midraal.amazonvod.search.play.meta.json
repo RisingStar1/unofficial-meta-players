@@ -1,0 +1,23 @@
+{
+ "name": "Amazon VOD Search Play (M)",
+ "plugin": "plugin.video.amazon-test",
+ "id": "provider.midraal.amazonvod.search.play",
+ "movies": [
+  [
+   {
+    "link": "plugin://plugin.video.amazon-test",
+    "steps": ["Search","@keyboard: {title}","{title}"],
+    "action": "PLAY"
+   }
+  ]
+ ],
+ "tvshows": [
+  [
+   {
+    "link": "plugin://plugin.video.amazon-test",
+    "steps": ["Search","@keyboard: {clearname}","{clearname} .*- Season {season}","{episode} -.*"],
+    "action": "PLAY"
+   }
+  ]
+ ]
+}
