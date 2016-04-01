@@ -1,22 +1,30 @@
 {
- "name": "Salts RD Lite Search Direct Activate (Q)",
- "plugin": "plugin.video.saltsrd.lite",
- "id": "provider.openeleq.saltsrdlite.search.direct.activate",
- "movies": [
+ "name"         : "Salts RD Lite Search Direct Activate (OpenELEQ)",
+ "plugin"       : "plugin.video.saltsrd.lite",
+ "id"           : "provider.openeleq.saltsrdlite.search.direct.activate",
+ "filters"      : {},
+ "postprocess"  : "",
+ "movies"       : [
   [
    {
-    "link": "plugin://plugin.video.saltsrd.lite/?mode=search_results&section=Movies&query={title}",
-    "steps": ["{title}.*({year}).*"],
-    "action": "ACTIVATE"
+    "link"      : "plugin://plugin.video.saltsrd.lite/?mode=search_results&section=Movies&query={title}",
+    "steps"     : [
+     "{title}.*({year}).*"
+     ],
+    "action"    : "ACTIVATE"
    }
   ]
  ],
- "tvshows": [
+ "tvshows"      : [
   [
    {
-    "link": "plugin://plugin.video.saltsrd.lite/?mode=search_results&section=TV&query={clearname}",
-    "steps": ["{clearname}.*({year}).*","Season {season}","{season}x{episode}.*"],
-    "action": "ACTIVATE"
+    "link"      : "plugin://plugin.video.saltsrd.lite/?mode=search_results&section=TV&query={clearname}",
+    "steps"     : [
+     "{clearname}.*({year}).*",
+     "Season {season}",
+     "{season}x{episode}.*"
+     ],
+    "action"    : "ACTIVATE"
    }
   ]
  ]

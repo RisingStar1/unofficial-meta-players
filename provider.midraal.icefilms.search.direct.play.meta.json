@@ -1,0 +1,24 @@
+{
+ "name"         : "Icefilms Search Direct Play (Midraal)",
+ "plugin"       : "plugin.video.icefilms",
+ "id"           : "provider.midraal.icefilms.search.direct.play",
+ "filters"      : {},
+ "postprocess"  : "",
+ "movies"       : [],
+ "tvshows"       : [
+  [
+   {
+    "link"      : "plugin://plugin.video.icefilms",
+    "steps"     : [
+     "Search",
+     "keyboard  : {clearname}",
+     "{clearname}$$.*",
+     ".*Season$${season}$$.*",
+     "{season}x{episode:02d}.*",
+     ".*"
+     ],
+    "action"    : "PLAY"
+   }
+  ]
+ ]
+}

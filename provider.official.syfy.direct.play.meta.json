@@ -1,0 +1,20 @@
+{
+ "name"         : "Syfy Channel Direct Play (Official)",
+ "plugin"       : "plugin.video.syfy",
+ "id"           : "provider.official.syfy.direct.play",
+ "filters"      : {},
+ "postprocess"  : "",
+ "movies"       : [],
+ "tvshows"      : [
+  [
+   {
+    "link"      : "plugin://plugin.video.syfy/",
+    "steps"     : [
+     "{clearname}.*",
+       "{season}x{episode}"
+     ],
+    "action"    : "PLAY"
+   }
+  ]
+ ]
+}

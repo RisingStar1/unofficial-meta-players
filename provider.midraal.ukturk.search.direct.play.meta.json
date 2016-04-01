@@ -1,0 +1,34 @@
+{
+ "name"         : "UK Turk Playlists Search Direct Play (Midraal)",
+ "plugin"       : "plugin.video.ukturk",
+ "id"           : "provider.midraal.ukturk.search.direct.play",
+ "filters"      : {},
+ "postprocess"  : "",
+ "movies"       : [
+  [
+   {
+    "link"      : "plugin://plugin.video.ukturk",
+    "steps"     : [
+     "($$.*$$)*Search($$.*$$)*",
+     "keyboard  : {title}",
+     ".*{title}.*"
+     ],
+    "action"    : "PLAY"
+   }
+  ]
+ ],
+ "tvshows"      : [
+  [
+   {
+    "link"      : "plugin://plugin.video.ukturk/",
+    "steps"     : [
+     "($$.*$$)*Search($$.*$$)*",
+     "keyboard  : {clearname}",
+     "($$.*$$)*{clearname}($$.*$$)*",
+     ".*S{season:02d}E{episode:02d}.*"
+     ],
+    "action"    : "PLAY"
+   }
+  ]
+ ]
+}

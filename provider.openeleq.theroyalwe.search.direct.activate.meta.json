@@ -1,22 +1,32 @@
 {
- "name": "The Royal We Search Direct Activate (Q)",
- "plugin": "plugin.video.theroyalwe",
- "id": "provider.openeleq.theroyalwe.search.direct.activate",
- "movies": [
+ "name"         : "The Royal We Search Direct Activate (OpenELEQ)",
+ "plugin"       : "plugin.video.theroyalwe",
+ "id"           : "provider.openeleq.theroyalwe.direct.activate",
+ "filters"      : {},
+ "postprocess"  : "",
+ "movies"       : [
   [
    {
-    "link": "plugin://plugin.video.theroyalwe/?mode=movie_search",
-    "steps": ["keyboard: {title}","{title}"],
-    "action": "ACTIVATE"
+    "link"      : "plugin://plugin.video.theroyalwe/?mode=movie_search",
+    "steps"     : [
+     "keyboard  : {title}",
+     "{title}"
+     ],
+    "action"    : "ACTIVATE"
    }
   ]
  ],
- "tvshows": [
+ "tvshows"      : [
   [
    {
-    "link": "plugin://plugin.video.theroyalwe/?mode=tv_search",
-    "steps": ["keyboard: {clearname}","{clearname}","Season {season}","{episode}.*{title}"],
-    "action": "ACTIVATE"
+    "link"      : "plugin://plugin.video.theroyalwe/?mode=tv_search",
+    "steps"     : [
+     "keyboard  : {clearname}",
+     "{clearname}",
+     "Season {season}",
+     "{episode}.*{title}"
+     ],
+    "action"    : "ACTIVATE"
    }
   ]
  ]

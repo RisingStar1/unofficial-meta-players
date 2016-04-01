@@ -1,20 +1,24 @@
 {
- "name": "[COLOR FFD15FEE]Quasar[/COLOR] Direct Play (Q)",
- "plugin": "plugin.video.quasar",
- "id": "provider.openeleq.quasar.direct.play",
- "movies": [
+ "name"         : "[COLOR FFD15FEE]Quasar[/COLOR] Direct Play (OpenELEQ)",
+ "plugin"       : "plugin.video.quasar",
+ "id"           : "provider.openeleq.quasar.direct.play",
+ "filters"      : {},
+ "postprocess"  : "",
+ "movies"       : [
   [
    {
-    "link": "plugin://plugin.video.quasar/movie/{tmdb}/play",
-    "action": "PLAY"
+    "link"      : "plugin://plugin.video.quasar/movie/{tmdb}/play",
+    "steps"     : [],
+    "action"    : "PLAY"
    }
   ]
  ],
- "tvshows": [
+ "tvshows"      : [
   [
    {
-    "link": "plugin://plugin.video.quasar/show/{tmdb}/season/{season}/episode/{episode}/play",
-    "action": "PLAY"
+    "link"      : "plugin://plugin.video.quasar/show/{tmdb}/season/{season}/episode/{episode}/play",
+    "steps"     : [],
+    "action"    : "PLAY"
    }
   ]
  ]

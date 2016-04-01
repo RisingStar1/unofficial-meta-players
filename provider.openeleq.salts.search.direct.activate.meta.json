@@ -1,22 +1,30 @@
 {
- "name": "SALTS Search Direct Activate (Q)",
- "plugin": "plugin.video.salts",
- "id": "provider.openeleq.salts.search.direct.activate",
- "movies": [
+ "name"         : "SALTS Search Direct Activate (OpenELEQ)",
+ "plugin"       : "plugin.video.salts",
+ "id"           : "provider.openeleq.salts.search.direct.activate",
+ "filters"      : {},
+ "postprocess"  : "",
+ "movies"       : [
   [
    {
-    "link": "plugin://plugin.video.salts/?mode=search_results&section=Movies&query={title}",
-    "steps": ["{title}.*({year}).*"],
-    "action": "ACTIVATE"
+    "link"      : "plugin://plugin.video.salts/?mode=search_results&section=Movies&query={title}",
+    "steps"     : [
+     "{title}.*({year}).*"
+     ],
+    "action"    : "ACTIVATE"
    }
   ]
  ],
- "tvshows": [
+ "tvshows"      : [
   [
    {
-    "link": "plugin://plugin.video.salts/?mode=search_results&section=TV&query={clearname}",
-    "steps": ["{clearname}.*({year}).*","Season {season}","{season}x{episode}.*"],
-    "action": "ACTIVATE"
+    "link"      : "plugin://plugin.video.salts/?mode=search_results&section=TV&query={clearname}",
+    "steps"     : [
+     "{clearname}.*({year}).*",
+     "Season {season}",
+     "{season}x{episode}.*"
+     ],
+    "action"    : "ACTIVATE"
    }
   ]
  ]

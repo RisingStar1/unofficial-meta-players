@@ -1,20 +1,24 @@
 {
- "name": "Exodus Direct Play (Q)",
- "plugin": "plugin.video.exodus",
- "id": "provider.openeleq.exodus.direct.play",
- "movies": [
+ "name"         : "Exodus Direct Play (OpenELEQ)",
+ "plugin"       : "plugin.video.exodus",
+ "id"           : "provider.openeleq.exodus.direct.play",
+ "filters"      : {},
+ "postprocess"  : "",
+ "movies"       : [
   [
    {
-    "link": "plugin://plugin.video.exodus/?action=play&title={title}&year={year}&imdb={imdb}",
-    "action": "PLAY"
+    "link"      : "plugin://plugin.video.exodus/?action=play&title={title}&year={year}&imdb={imdb}",
+    "steps"     : [],
+    "action"    : "PLAY"
    }
   ]
  ],
- "tvshows": [
+ "tvshows"      : [
   [
    {
-    "link": "plugin://plugin.video.exodus/?action=play&title={name}&year={year}&imdb={imdb}&tvdb={id}&season={season}&episode={episode}&tvshowtitle={showname}&premiered={firstaired}",
-    "action": "PLAY"
+    "link"      : "plugin://plugin.video.exodus/?action=play&title={name}&year={year}&imdb={imdb}&tvdb={id}&season={season}&episode={episode}&tvshowtitle={showname}&premiered={firstaired}",
+    "steps"     : [],
+    "action"    : "PLAY"
    }
   ]
  ]

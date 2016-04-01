@@ -1,20 +1,24 @@
 {
- "name": "[COLOR FFD15FEE]Pulsar[/COLOR] Direct Play (Q)",
- "plugin": "plugin.video.pulsar",
- "id": "provider.openeleq.pulsar.direct.play",
- "movies": [
+ "name"         : "[COLOR FFD15FEE]Pulsar[/COLOR] Direct Play (OpenELEQ)",
+ "plugin"       : "plugin.video.pulsar",
+ "id"           : "provider.openeleq.pulsar.direct.play",
+ "filters"      : {},
+ "postprocess"  : "",
+ "movies"       : [
   [
    {
-    "link": "plugin://plugin.video.pulsar/movie/{imdb}/play",
-    "action": "PLAY"
+    "link"      : "plugin://plugin.video.pulsar/movie/{imdb}/play",
+    "steps"     : [],
+    "action"    : "PLAY"
    }
   ]
  ],
- "tvshows": [
+ "tvshows"      : [
   [
    {
-    "link": "plugin://plugin.video.pulsar/show/{tvdb}/season/{season}/episode/{episode}/play",
-    "action": "PLAY"
+    "link"      : "plugin://plugin.video.pulsar/show/{tvdb}/season/{season}/episode/{episode}/play",
+    "steps"     : [],
+    "action"    : "PLAY"
    }
   ]
  ]

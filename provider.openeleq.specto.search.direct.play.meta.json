@@ -1,20 +1,30 @@
 {
- "name": "Specto Search Activate (Q)",
- "plugin": "plugin.video.specto",
- "id": "provider.openeleq.specto.direct.activate",
- "movies": [
+ "name"         : "Specto Search Direct Play (OpenELEQ)",
+ "plugin"       : "plugin.video.specto",
+ "id"           : "provider.openeleq.specto.search.direct.play",
+ "filters"      : {},
+ "postprocess"  : "",
+ "movies"       : [
   [
    {
-    "link": "plugin://plugin.video.specto/?action=movieSearch&query={title}",
-    "action": "ACTIVATE"
+    "link"      : "plugin://plugin.video.specto/?action=movieSearch&query={title}",
+    "steps"     : [
+     "{title}.*({year}).*"
+     ],
+    "action"    : "PLAY"
    }
   ]
  ],
- "tvshows": [
+ "tvshows"      : [
   [
    {
-    "link": "plugin://plugin.video.specto/?action=tvSearch&query={clearname}",
-    "action": "ACTIVATE"
+    "link"      : "plugin://plugin.video.specto/?action=tvSearch&query={title}",
+    "steps"     : [
+     "{clearname}",
+     "Season {season}",
+     "{season}x{episode:02d}.*{title}"
+     ],
+    "action"    : "PLAY"
    }
   ]
  ]
