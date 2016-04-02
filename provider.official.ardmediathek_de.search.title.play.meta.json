@@ -1,6 +1,7 @@
 {
  "name"         : "ARD Mediathek Search Title Play (Official)",
  "plugin"       : "plugin.video.ardmediathek_de",
+ "priority"     : 1000,
  "id"           : "provider.official.ardmediathek_de.search.title.play",
  "filters"      : {},
  "postprocess"  : "",

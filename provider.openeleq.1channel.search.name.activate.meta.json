@@ -1,6 +1,7 @@
 {
  "name"         : "1Channel Search Name Activate (OpenELEQ)",
  "plugin"       : "plugin.video.1channel",
+ "priority"     : 1000,
  "id"           : "provider.openeleq.1channel.search.name.activate",
  "filters"      : {},
  "postprocess"  : "",

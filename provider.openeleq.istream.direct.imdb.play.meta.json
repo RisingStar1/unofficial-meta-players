@@ -1,6 +1,7 @@
 {
  "name"         : "iSTREAM Direct IMDb Activate (OpenELEQ)",
  "plugin"       : "script.icechannel",
+ "priority"     : 500,
  "id"           : "provider.openeleq.istream.direct.imdb.activate",
  "filters"      : {},
  "postprocess"  : "",

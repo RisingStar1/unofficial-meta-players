@@ -1,6 +1,7 @@
 {
  "name"         : "Alluc Direct Activate (OpenELEQ)",
  "plugin"       : "plugin.video.alluc.api",
+ "priority"     : 500,
  "id"           : "provider.openeleq.alluc.direct.activate",
  "filters"      : {},
  "postprocess"  : "",

@@ -1,13 +1,14 @@
 {
  "name"         : "Library Play (Official)",
  "plugin"       : "",
+ "priority"     : 100,
  "id"           : "provider.official.library.play",
  "filters"      : {},
  "postprocess"  : "",
  "movies"       : [
   [
    {
-    "link"      : "movies"
+    "link"      : "movies",
     "steps"     : [],
     "action"    : "PLAY"
    }

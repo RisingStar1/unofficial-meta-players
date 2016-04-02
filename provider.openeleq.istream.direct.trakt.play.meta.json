@@ -1,6 +1,7 @@
 {
  "name"         : "iSTREAM Direct Trakt Play (OpenELEQ)",
  "plugin"       : "script.icechannel",
+ "priority"     : 500,
  "id"           : "provider.openeleq.istream.direct.trakt.play",
  "filters"      : {},
  "postprocess"  : "",

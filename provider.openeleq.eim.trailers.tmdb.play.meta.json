@@ -1,6 +1,7 @@
 {
  "name"         : "EIM Trailers TMDb Play (OpenELEQ)",
  "plugin"       : "script.extendedinfo",
+ "priority"     : 600,
  "id"           : "provider.openeleq.eim.trailers.tmdb.play",
  "filters"      : {},
  "postprocess"  : "",

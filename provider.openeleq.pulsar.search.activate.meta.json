@@ -1,6 +1,7 @@
 {
  "name"         : "[COLOR FFD15FEE]Pulsar[/COLOR] Search Activate (OpenELEQ)",
  "plugin"       : "plugin.video.pulsar",
+ "priority"     : 1000,
  "id"           : "provider.openeleq.pulsar.search.activate",
  "filters"      : {},
  "postprocess"  : "",

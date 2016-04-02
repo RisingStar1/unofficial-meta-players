@@ -1,6 +1,7 @@
 {
  "name"         : "Phoenix Search Direct Activate (Midraal)",
  "plugin"       : "plugin.video.phstreams",
+ "priority"     : 900,
  "id"           : "provider.midraal.phstreams.search.direct.activate",
  "filters"      : {},
  "postprocess"  : "",

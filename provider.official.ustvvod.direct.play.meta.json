@@ -9,7 +9,7 @@
  "tvshows"      : [
   [
    {
-    "link"      : "plugin://plugin.video.ustvvod/"
+    "link"      : "plugin://plugin.video.ustvvod/",
     "steps"     : [
      "{network_clean}",
      "(?:{showname}|clearname)",
@@ -19,7 +19,7 @@
     "action"    : "PLAY"
    },
    {
-    "link"      : "plugin://plugin.video.ustvvod/"
+    "link"      : "plugin://plugin.video.ustvvod/",
     "steps"     : [
      "{network_clean}",
      "(?:{showname}|clearname)",
@@ -29,7 +29,7 @@
     "action"    : "PLAY"
    },
    {
-    "link"      : "plugin://plugin.video.ustvvod/"
+    "link"      : "plugin://plugin.video.ustvvod/",
     "steps"     : [
      "Favorite Shows",
      "(?:{showname}|clearname)",
@@ -39,7 +39,7 @@
     "action"    : "PLAY"
    },
    {
-    "link"      : "plugin://plugin.video.ustvvod/"
+    "link"      : "plugin://plugin.video.ustvvod/",
     "steps"     : [
      "Favorite Shows",
      "(?:{showname}|clearname)",

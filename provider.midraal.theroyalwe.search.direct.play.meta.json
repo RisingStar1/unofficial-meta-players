@@ -1,6 +1,7 @@
 {
  "name"         : "The Royal We Search Direct Play (Midraal)",
  "plugin"       : "plugin.video.theroyalwe",
+ "priority"     : 900,
  "id"           : "provider.midraal.theroyalwe.search.direct.play",
  "filters"      : {},
  "postprocess"  : "",

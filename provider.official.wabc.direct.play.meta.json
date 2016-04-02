@@ -1,6 +1,7 @@
 {
  "name"         : "WABC Programs Direct Play (Official)",
  "plugin"       : "plugin.video.wabc",
+ "priority"     : 500,
  "id"           : "provider.official.wabc.direct.play",
  "filters"      : {},
  "postprocess"  : "",

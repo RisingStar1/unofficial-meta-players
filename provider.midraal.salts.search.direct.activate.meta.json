@@ -1,6 +1,7 @@
 {
  "name"         : "SALTS Search Direct Activate (Midraal)",
  "plugin"       : "plugin.video.salts",
+ "priority"     : 900,
  "id"           : "provider.midraal.salts.search.direct.activate",
  "filters"      : {},
  "postprocess"  : "",

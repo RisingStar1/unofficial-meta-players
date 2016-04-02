@@ -1,6 +1,7 @@
 {
  "name"         : "VidTime Search Direct Play (Midraal)",
  "plugin"       : "plugin.video.VidTime",
+ "priority"     : 900,
  "id"           : "provider.midraal.vidtime.search.direct.play",
  "filters"      : {},
  "postprocess"  : "",

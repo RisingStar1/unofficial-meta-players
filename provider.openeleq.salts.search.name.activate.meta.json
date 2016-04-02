@@ -1,6 +1,7 @@
 {
  "name"         : "SALTS Search Name Activate (OpenELEQ)",
  "plugin"       : "plugin.video.salts",
+ "priority"     : 1000,
  "id"           : "provider.openeleq.salts.search.name.activate",
  "filters"      : {},
  "postprocess"  : "",

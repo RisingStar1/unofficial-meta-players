@@ -1,6 +1,7 @@
 {
  "name"         : "Velocity Search Direct Activate (Midraal)",
  "plugin"       : "plugin.video.velocity",
+ "priority"     : 900,
  "id"           : "provider.midraal.velocity.search.direct.activate",
  "filters"      : {},
  "postprocess"  : "",

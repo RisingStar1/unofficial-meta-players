@@ -1,6 +1,7 @@
 {
  "name"         : "7TV Search Name Activate (Official)",
  "plugin"       : "plugin.video.7tv",
+ "priority"     : 1000,
  "id"           : "provider.official.7tv.search.name.activate",
  "filters"      : {},
  "postprocess"  : "",

@@ -1,6 +1,7 @@
 {
  "name"         : "1Channel Search Direct Play (Midraal)",
  "plugin"       : "plugin.video.1channel",
+ "priority"     : 900,
  "id"           : "provider.midraal.1channel.search.direct.play",
  "filters"      : {},
  "postprocess"  : "",

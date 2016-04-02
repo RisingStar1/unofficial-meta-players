@@ -1,6 +1,7 @@
 {
  "name"         : "[COLOR FFD15FEE]Quasar[/COLOR] Direct Play (OpenELEQ)",
  "plugin"       : "plugin.video.quasar",
+ "priority"     : 500,
  "id"           : "provider.openeleq.quasar.direct.play",
  "filters"      : {},
  "postprocess"  : "",

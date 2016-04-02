@@ -1,6 +1,7 @@
 {
  "name"         : "[COLOR FFD15FEE]Quasar[/COLOR] Helix Search Direct Play (OpenELEQ)",
  "plugin"       : "plugin.video.pulsar",
+ "priority"     : 900,
  "id"           : "provider.openeleq.quasar.helix.search.direct.play",
  "filters"      : {},
  "postprocess"  : "",

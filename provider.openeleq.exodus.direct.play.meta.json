@@ -1,6 +1,7 @@
 {
  "name"         : "Exodus Direct Play (OpenELEQ)",
  "plugin"       : "plugin.video.exodus",
+ "priority"     : 500,
  "id"           : "provider.openeleq.exodus.direct.play",
  "filters"      : {},
  "postprocess"  : "",

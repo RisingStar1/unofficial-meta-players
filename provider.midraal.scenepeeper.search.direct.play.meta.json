@@ -1,6 +1,7 @@
 {
  "name"         : "Scene Peeper Search Direct Play (Midraal)",
  "plugin"       : "plugin.video.mdscenepeeper",
+ "priority"     : 900,
  "id"           : "provider.midraal.scenepeeper.search.direct.play",
  "filters"      : {},
  "postprocess"  : "",

@@ -1,6 +1,7 @@
 {
  "name"         : "Super Favourites Search Title Activate (OpenELEQ)",
  "plugin"       : "plugin.program.super.favourites",
+ "priority"     : 400,
  "id"           : "provider.openeleq.superfavourites.search.title.activate",
  "filters"      : {},
  "postprocess"  : "",

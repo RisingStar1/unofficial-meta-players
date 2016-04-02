@@ -1,6 +1,7 @@
 {
  "name"         : "Clipfish Search Title Play (Official)",
  "plugin"       : "plugin.video.clipfish.de",
+ "priority"     : 1000,
  "id"           : "provider.official.clipfish.search.title.play",
  "filters"      : {},
  "postprocess"  : "",

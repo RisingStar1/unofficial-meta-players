@@ -1,6 +1,7 @@
 {
  "name"         : "SALTS Search Direct Play (Midraal)",
  "plugin"       : "plugin.video.salts",
+ "priority"     : 900,
  "id"           : "provider.midraal.salts.search.direct.play",
  "filters"      : {},
  "postprocess"  : "",

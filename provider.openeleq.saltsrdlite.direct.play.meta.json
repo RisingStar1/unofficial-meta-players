@@ -1,6 +1,7 @@
 {
  "name"         : "Salts RD Lite Direct Play (OpenELEQ)",
  "plugin"       : "plugin.video.saltsrd.lite",
+ "priority"     : 500,
  "id"           : "provider.openeleq.saltsrdlite.direct.play",
  "filters"      : {},
  "postprocess"  : "",

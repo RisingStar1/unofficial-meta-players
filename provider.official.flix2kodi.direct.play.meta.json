@@ -8,7 +8,7 @@
  "movies"       : [
   [
    {
-    "link"      : "plugin://plugin.video.flix2kodi/?mode=search&thumb&type=movie&url={title}"
+    "link"      : "plugin://plugin.video.flix2kodi/?mode=search&thumb&type=movie&url={title}",
     "steps"     : [
      "{title}.*"
      ],

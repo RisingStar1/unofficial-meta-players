@@ -1,6 +1,7 @@
 {
  "name"         : "[COLOR FFD15FEE]Quasar[/COLOR] Search Title Activate (OpenELEQ)",
  "plugin"       : "plugin.video.quasar",
+ "priority"     : 1000,
  "id"           : "provider.openeleq.quasar.search.title.activate",
  "filters"      : {},
  "postprocess"  : "",

@@ -1,6 +1,7 @@
 {
  "name"         : "Bayrisches Fernsehen Search Title Play (Official)",
  "plugin"       : "plugin.video.br3",
+ "priority"     : 1000,
  "id"           : "provider.official.br3.search.title.play",
  "filters"      : {},
  "postprocess"  : "",

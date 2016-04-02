@@ -1,6 +1,7 @@
 {
  "name"         : "Break Videos Search Play (Official)",
  "plugin"       : "plugin.video.break_com",
+ "priority"     : 1000,
  "id"           : "provider.official.break_com.search.play",
  "filters"      : {},
  "postprocess"  : "",

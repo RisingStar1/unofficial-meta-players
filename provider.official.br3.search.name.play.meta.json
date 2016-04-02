@@ -1,6 +1,7 @@
 {
  "name"         : "Bayrisches Fernsehen Search Direct Activate (Official)",
  "plugin"       : "plugin.video.br3",
+ "priority"     : 1000,
  "id"           : "provider.official.br3.search.direct.activate",
  "filters"      : {},
  "postprocess"  : "",

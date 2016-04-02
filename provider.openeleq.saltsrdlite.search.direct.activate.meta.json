@@ -1,6 +1,7 @@
 {
  "name"         : "Salts RD Lite Search Direct Activate (OpenELEQ)",
  "plugin"       : "plugin.video.saltsrd.lite",
+ "priority"     : 900,
  "id"           : "provider.openeleq.saltsrdlite.search.direct.activate",
  "filters"      : {},
  "postprocess"  : "",

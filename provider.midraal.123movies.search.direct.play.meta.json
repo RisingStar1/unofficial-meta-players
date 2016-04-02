@@ -1,6 +1,7 @@
 {
  "name"         : "123Movies Search Direct Play (Midraal)",
  "plugin"       : "plugin.video.md123movies",
+ "priority"     : 900,
  "id"           : "provider.midraal.123movies.search.direct.play",
  "filters"      : {},
  "postprocess"  : "",

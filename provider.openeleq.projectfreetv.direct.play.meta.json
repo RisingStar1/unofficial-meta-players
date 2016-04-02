@@ -1,6 +1,7 @@
 {
  "name"         : "Project Free TV Direct Play (OpenELEQ)",
  "plugin"       : "plugin.video.projectfreetv",
+ "priority"     : 500,
  "id"           : "provider.openeleq.projectfreetv.direct.play",
  "filters"      : {},
  "postprocess"  : "",

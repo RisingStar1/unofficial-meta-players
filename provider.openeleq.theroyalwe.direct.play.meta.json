@@ -1,6 +1,7 @@
 {
  "name"         : "The Royal We Direct Play (OpenELEQ)",
  "plugin"       : "plugin.video.theroyalwe",
+ "priority"     : 500,
  "id"           : "provider.openeleq.theroyalwe.direct.play",
  "filters"      : {},
  "postprocess"  : "",

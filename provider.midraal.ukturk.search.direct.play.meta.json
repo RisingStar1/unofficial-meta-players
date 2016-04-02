@@ -1,6 +1,7 @@
 {
  "name"         : "UK Turk Playlists Search Direct Play (Midraal)",
  "plugin"       : "plugin.video.ukturk",
+ "priority"     : 900,
  "id"           : "provider.midraal.ukturk.search.direct.play",
  "filters"      : {},
  "postprocess"  : "",

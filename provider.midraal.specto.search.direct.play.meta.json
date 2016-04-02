@@ -1,6 +1,7 @@
 {
  "name"         : "Specto Search Direct Play (Midraal)",
  "plugin"       : "plugin.video.specto",
+ "priority"     : 900,
  "id"           : "provider.midraal.specto.search.direct.play",
  "filters"      : {},
  "postprocess"  : "",

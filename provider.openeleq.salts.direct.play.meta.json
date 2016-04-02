@@ -1,6 +1,7 @@
 {
  "name"         : "SALTS Direct Play (OpenELEQ)",
  "plugin"       : "plugin.video.salts",
+ "priority"     : 500,
  "id"           : "provider.openeleq.salts.direct.play",
  "filters"      : {},
  "postprocess"  : "",

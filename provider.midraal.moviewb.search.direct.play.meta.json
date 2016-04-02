@@ -1,6 +1,7 @@
 {
  "name"         : "MovieWB Search Direct Play (Midraal)",
  "plugin"       : "plugin.video.mdmoviewb",
+ "priority"     : 900,
  "id"           : "provider.midraal.moviewb.search.direct.play",
  "filters"      : {},
  "postprocess"  : "",

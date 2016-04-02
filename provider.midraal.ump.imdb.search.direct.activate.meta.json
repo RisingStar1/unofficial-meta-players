@@ -1,6 +1,7 @@
 {
  "name"         : "UMP IMDb Search Direct Activate (Midraal)",
  "plugin"       : "plugin.program.ump",
+ "priority"     : 900,
  "id"           : "provider.midraal.ump.imdb.search.direct.activate",
  "filters"      : {},
  "postprocess"  : "",

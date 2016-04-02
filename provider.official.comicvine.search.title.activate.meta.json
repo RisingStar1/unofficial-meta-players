@@ -1,6 +1,7 @@
 {
  "name"         : "Comic Vine Search Title Activate (Official)",
  "plugin"       : "plugin.video.comicvine",
+ "priority"     : 1000,
  "id"           : "provider.official.comicvine.search.title.activate",
  "filters"      : {},
  "postprocess"  : "",

@@ -1,6 +1,7 @@
 {
  "name"         : "[COLOR FFD15FEE]Quasar[/COLOR] Direct Play (Midraal)",
  "plugin"       : "plugin.video.quasar",
+ "priority"     : 500,
  "id"           : "provider.midraal.quasar.direct.play",
  "filters"      : {},
  "postprocess"  : "",

@@ -1,6 +1,7 @@
 {
  "name"         : "iTunes Podcasts Search Name Activate (Official)",
  "plugin"       : "plugin.video.itunes_podcasts",
+ "priority"     : 1000,
  "id"           : "provider.official.itunes_podcasts.search.name.activate",
  "filters"      : {},
  "postprocess"  : "",

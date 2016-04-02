@@ -1,6 +1,7 @@
 {
  "name"         : "[COLOR FF418106]הערוץ הראשון[/COLOR] Direct Play (Official)",
  "plugin"       : "plugin.video.IBA",
+ "priority"     : 500,
  "id"           : "provider.official.ערוץ1.direct.play",
  "filters"      : {
   "network"     : "הערוץ הראשון"

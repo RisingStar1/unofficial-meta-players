@@ -1,6 +1,7 @@
 {
  "name"         : "Specto Direct Play (OpenELEQ)",
  "plugin"       : "plugin.video.specto",
+ "priority"     : 500,
  "id"           : "provider.openeleq.specto.direct.play",
  "filters"      : {},
  "postprocess"  : "",

@@ -1,6 +1,7 @@
 {
  "name"         : "Exodus Search Activate (OpenELEQ)",
  "plugin"       : "plugin.video.exodus",
+ "priority"     : 1000,
  "id"           : "provider.openeleq.exodus.search.activate",
  "filters"      : {},
  "postprocess"  : "",

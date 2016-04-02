@@ -1,6 +1,7 @@
 {
  "name"         : "Icefilms Search Direct Play (Midraal)",
  "plugin"       : "plugin.video.icefilms",
+ "priority"     : 900,
  "id"           : "provider.midraal.icefilms.search.direct.play",
  "filters"      : {},
  "postprocess"  : "",

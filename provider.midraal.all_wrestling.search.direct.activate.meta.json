@@ -1,6 +1,7 @@
 {
  "name"         : "All Wrestling Search Direct Activate (Midraal)",
  "plugin"       : "plugin.video.all_wrestling",
+ "priority"     : 900,
  "id"           : "provider.midraal.all_wrestling.search.direct.activate",
  "filters"      : {},
  "postprocess"  : "",

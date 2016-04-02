@@ -1,6 +1,7 @@
 {
  "name"         : "What the Furk Search Name Activate (OpenELEQ)",
  "plugin"       : "plugin.video.whatthefurk",
+ "priority"     : 1000,
  "id"           : "provider.openeleq.whatthefurk.search.name.activate",
  "filters"      : {},
  "postprocess"  : "",

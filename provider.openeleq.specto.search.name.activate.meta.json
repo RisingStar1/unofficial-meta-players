@@ -1,6 +1,7 @@
 {
  "name"         : "Specto Search Name Activate (OpenELEQ)",
  "plugin"       : "plugin.video.specto",
+ "priority"     : 1000,
  "id"           : "provider.openeleq.specto.search.name.activate",
  "filters"      : {},
  "postprocess"  : "",

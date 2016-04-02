@@ -1,6 +1,7 @@
 {
  "name"         : "Super Favourites Search IMDb Activate (OpenELEQ)",
  "plugin"       : "plugin.program.super.favourites",
+ "priority"     : 400,
  "id"           : "provider.openeleq.superfavourites.search.imdb.activate",
  "filters"      : {},
  "postprocess"  : "",

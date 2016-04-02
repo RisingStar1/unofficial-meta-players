@@ -1,6 +1,7 @@
 {
  "name"         : "M4U Search Direct Play (Midraal)",
  "plugin"       : "plugin.video.mdm4u",
+ "priority"     : 900,
  "id"           : "provider.midraal.m4u.search.direct.play",
  "filters"      : {},
  "postprocess"  : "",

@@ -1,6 +1,7 @@
 {
  "name"         : "[COLOR FFD15FEE]Pulsar[/COLOR] Search Direct Play (OpenELEQ)",
  "plugin"       : "plugin.video.pulsar",
+ "priority"     : 900,
  "id"           : "provider.openeleq.pulsar.search.direct.play",
  "filters"      : {},
  "postprocess"  : "",

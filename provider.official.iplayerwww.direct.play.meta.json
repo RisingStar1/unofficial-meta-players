@@ -1,6 +1,7 @@
 {
  "name"         : "iPlayer WWW Direct Play (Official)",
  "plugin"       : "plugin.video.iplayerwww",
+ "priority"     : 500,
  "id"           : "provider.official.iplayerwww.direct.play",
  "filters"      : {},
  "postprocess"  : "",

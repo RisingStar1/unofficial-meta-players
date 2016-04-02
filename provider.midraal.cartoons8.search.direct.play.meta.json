@@ -1,6 +1,7 @@
 {
  "name"         : "Cartoons8 Search Direct Play (Midraal)",
  "plugin"       : "plugin.video.cartoons8",
+ "priority"     : 900,
  "id"           : "provider.midraal.cartoons8.search.direct.play",
  "filters"      : {},
  "postprocess"  : "",

@@ -1,6 +1,7 @@
 {
  "name"         : "Watch 1080p Search Direct Play (Midraal)",
  "plugin"       : "plugin.video.watch1080",
+ "priority"     : 900,
  "id"           : "provider.midraal.watch1080p.search.direct.play",
  "filters"      : {},
  "postprocess"  : "",

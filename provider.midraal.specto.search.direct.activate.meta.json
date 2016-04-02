@@ -1,6 +1,7 @@
 {
  "name"         : "Specto Search Direct Activate (Midraal)",
  "plugin"       : "plugin.video.specto",
+ "priority"     : 900,
  "id"           : "provider.midraal.specto.search.direct.activate",
  "filters"      : {},
  "postprocess"  : "",

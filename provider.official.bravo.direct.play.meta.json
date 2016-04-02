@@ -1,6 +1,7 @@
 {
  "name"         : "Bravo Direct Play (Official)",
  "plugin"       : "plugin.video.bravo",
+ "priority"     : 500,
  "id"           : "provider.official.bravo.direct.play",
  "filters"      : {},
  "postprocess"  : "",

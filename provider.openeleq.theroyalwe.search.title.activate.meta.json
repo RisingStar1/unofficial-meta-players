@@ -1,6 +1,7 @@
 {
  "name"         : "The Royal We Search Title Activate (OpenELEQ)",
  "plugin"       : "plugin.video.theroyalwe",
+ "priority"     : 1000,
  "id"           : "provider.openeleq.theroyalwe.search.title.activate",
  "filters"      : {},
  "postprocess"  : "",

@@ -1,6 +1,7 @@
 {
  "name"         : "Discovery Channels Direct Play (Official)",
  "plugin"       : "plugin.video.discovery-channels",
+ "priority"     : 500,
  "id"           : "provider.official.discovery-channels.direct.play",
  "filters"      : {},
  "postprocess"  : "",
@@ -62,7 +63,7 @@
      ".*{title}.*"
      ],
     "action"    : "PLAY"
-   },
+   }
   ]
  ]
 }

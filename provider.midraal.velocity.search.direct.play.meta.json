@@ -1,6 +1,7 @@
 {
  "name"         : "Velocity Search Direct Play (Midraal)",
  "plugin"       : "plugin.video.velocity",
+ "priority"     : 900,
  "id"           : "provider.midraal.velocity.search.direct.play",
  "filters"      : {},
  "postprocess"  : "",

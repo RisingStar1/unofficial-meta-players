@@ -1,6 +1,7 @@
 {
  "name"         : "SALTS Direct Activate (OpenELEQ)",
  "plugin"       : "plugin.video.salts",
+ "priority"     : 500,
  "id"           : "provider.openeleq.salts.direct.activate",
  "filters"      : {},
  "postprocess"  : "",
