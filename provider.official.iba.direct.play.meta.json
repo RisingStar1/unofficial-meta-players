@@ -1,5 +1,5 @@
 {
- "name"         : "[COLOR FF418106]הערוץ הראשון[/COLOR] Direct Play (Official)",
+ "name"         : "[COLOR FF418106]IBA[/COLOR] Direct Play (Official)",
  "plugin"       : "plugin.video.IBA",
  "priority"     : 500,
  "id"           : "provider.official.ערוץ1.direct.play",
