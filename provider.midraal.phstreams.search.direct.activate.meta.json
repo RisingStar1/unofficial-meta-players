@@ -28,22 +28,44 @@
     "action"    : "ACTIVATE"
    },
    {
-    "link": "plugin://plugin.video.phstreams/?action=addSearch&url={clearname}",
-    "steps": [
+    "link"      : "plugin://plugin.video.phstreams/?action=addSearch&url={clearname}",
+    "steps"     : [
      ".*{clearname}",
      ".*",
      ".*{episode:02d}"
     ],
-    "action": "ACTIVATE"
+    "action"    : "ACTIVATE"
    },
    {
-    "link": "plugin://plugin.video.phstreams/?action=addSearch&url={clearname}",
-    "steps": [
+    "link"      : "plugin://plugin.video.phstreams/?action=addSearch&url={clearname}",
+    "steps"     : [
      ".*{clearname}.*",
      ".*{season}$$.*",
      ".*{episode:02d}$$.*"
     ],
-    "action": "ACTIVATE"
+    "action"    : "ACTIVATE"
+   }
+  ]
+ ],
+ "live": [
+  [
+   {
+    "link"      : "plugin://plugin.video.phstreams",
+    "steps"     : [
+     "Phoenix TV",
+     "@any",
+     ".*{basename}$$*{extension}($$*.$$*)?{delay}"
+     ],
+    "action"    : "ACTIVATE"
+   },
+   {
+    "link"      : "plugin://plugin.video.phstreams",
+    "steps"     : [
+     "Phoenix TV",
+     "@any",
+     ".*{basename|replace(*, star)}"
+     ],
+    "action"    : "ACTIVATE"
    }
   ]
  ]

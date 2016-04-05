@@ -31,5 +31,17 @@
     "action"    : "PLAY"
    }
   ]
- ]
+ ],
+ "live"         : [
+  [
+   {
+    "link"      : "plugin://plugin.video.ukturk/",
+    "steps"     : [
+     ".*Live TV.*",
+     ".*{basename}.*({extension}|{extension|text_to_number()}).*"
+     ],
+    "action"    : "PLAY"
+   }
+  ]
+ ] 
 }
