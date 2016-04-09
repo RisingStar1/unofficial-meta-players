@@ -11,7 +11,7 @@
    {
     "link"      : "plugin://plugin.program.ump",
     "steps"     : [
-     "keyboard  : {clearname}",
+     "@keyboard: {clearname}",
      "{clearname}",
      "Season {season}",
      "{season}x{episode}$$.*"

@@ -10,7 +10,7 @@
    {
     "link"      : "plugin://plugin.video.pulsar/movies/search",
     "steps"     : [
-     "keyboard  : {title}",
+     "@keyboard: {title}",
      "{title}"
      ],
     "action"    : "PLAY"
@@ -22,7 +22,7 @@
    {
     "link"      : "plugin://plugin.video.pulsar/shows/search",
     "steps"     : [
-     "keyboard  : {clearname}",
+     "@keyboard: {clearname}",
      ".*{clearname}.*",
      ".*Season {season}",
      ".*{season}x{episode:02d}.*{title}.*"

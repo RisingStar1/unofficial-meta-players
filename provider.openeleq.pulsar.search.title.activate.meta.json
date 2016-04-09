@@ -10,7 +10,7 @@
    {
     "link"      : "plugin://plugin.video.pulsar/movies/search",
     "steps"     : [
-     "keyboard  : {title}",
+     "@keyboard: {title}",
      ".*"
      ],
     "action"    : "ACTIVATE"
@@ -22,7 +22,7 @@
    {
     "link"      : "plugin://plugin.video.pulsar/shows/search",
     "steps"     : [
-     "keyboard  : {title}",
+     "@keyboard: {title}",
      ".*"
      ],
     "action"    : "ACTIVATE"

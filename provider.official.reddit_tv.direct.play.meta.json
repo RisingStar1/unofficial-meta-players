@@ -10,7 +10,7 @@
    {
     "link"      : "plugin://plugin.video.reddit_tv/?mode=searchVideos&url=all",
     "steps"     : [
-     "keyboard  : {title}",
+     "@keyboard: {title}",
      "{title}$$.*"
      ],
     "action"    : "PLAY"
@@ -22,7 +22,7 @@
    {
     "link"      : "plugin://plugin.video.reddit_tv/?mode=searchVideos&url=all",
     "steps"     : [
-     "keyboard: {clearname} Season {season} Episode {episode}",
+     "@keyboard: {clearname} Season {season} Episode {episode}",
      "{clearname}$$.*$${season}$$.*$${episode}.*"
      ],
     "action"    : "PLAY"
@@ -30,7 +30,7 @@
    {
     "link"      : "plugin://plugin.video.reddit_tv/?mode=searchVideos&url=all",
     "steps"     : [
-     "keyboard: {clearname} Season {season}",
+     "@keyboard: {clearname} Season {season}",
      "{clearname}$$.*$${season}$$.*"
      ],
     "action"    : "PLAY"
@@ -38,7 +38,7 @@
    {
     "link"      : "plugin://plugin.video.reddit_tv/?mode=searchVideos&url=all",
     "steps"     : [
-     "keyboard: {clearname}",
+     "@keyboard: {clearname}",
      "{clearname}$$.*"
      ],
     "action"    : "PLAY"

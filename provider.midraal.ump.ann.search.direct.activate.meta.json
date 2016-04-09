@@ -13,7 +13,7 @@
      "video",
      "ann",
      "Search",
-     "keyboard  : {title}",
+     "@keyboard: {title}",
      ".*"
      ],
     "action"    : "ACTIVATE"
@@ -28,7 +28,7 @@
      "video",
      "ann",
      "Search",
-     "keyboard  : {clearname}",
+     "@keyboard: {clearname}",
      ".*{clearname}$$.*",
      "{episode}$$.*"
      ],
