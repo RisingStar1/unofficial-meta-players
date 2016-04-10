@@ -42,12 +42,12 @@
      ".*{clearname}.*",
      ".*{season}$$.*",
      ".*{episode:02d}$$.*"
-    ],
+     ],
     "action"    : "ACTIVATE"
    }
   ]
  ],
- "live": [
+ "live"         : [
   [
    {
     "link"      : "plugin://plugin.video.phstreams",

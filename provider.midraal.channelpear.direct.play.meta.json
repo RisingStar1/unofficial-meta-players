@@ -13,7 +13,7 @@
     "link"      : "plugin://plugin.video.channelpear/",
     "steps"     : [
      ".*All Channels.*",
-	 "{basename}.*{extension}.*"
+     "{basename}.*{extension}.*"
      ],
     "action"    : "PLAY"
    }   
