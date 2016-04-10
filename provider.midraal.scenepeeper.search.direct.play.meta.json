@@ -11,7 +11,7 @@
     "link"      : "plugin://plugin.video.mdscenepeeper",
     "steps"     : [
      ".*SEARCH.*",
-     "keyboard  : {title}",
+     "@keyboard: {title}",
      ".*{title}.*{year}.*"
      ],
     "action"    : "PLAY"

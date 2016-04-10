@@ -10,7 +10,7 @@
    {
     "link"      : "plugin://plugin.video.whatthefurk/?iconimage=special%3a%2f%2fhome%2faddons%2fplugin.video.whatthefurk%2fart%2fsearch.png&imdb=blank&mode=1500&name=Search%20Movies&parms&rootname=blank&start=1&url=imdb&videotype=moviemenu",
     "steps"     : [
-     "keyboard: {title}",
+     "@keyboard: {title}",
      ".*{title}..{year}.*"
      ],
     "action"    : "ACTIVATE"
@@ -22,7 +22,7 @@
    {
     "link"      : "plugin://plugin.video.whatthefurk/?iconimage=special%3a%2f%2fhome%2faddons%2fplugin.video.whatthefurk%2fart%2fsearch.png&imdb=blank&mode=1500&name=Search%20TV%20Shows&parms&rootname=blank&start=1&url=imdb&videotype",
     "steps"     : [
-     "keyboard: {clearname}",
+     "@keyboard: {clearname}",
      ".*{clearname}..{year}.*",
      "Season.{season}.*",
      "S{season:02d}E{episode:02d}.*"
