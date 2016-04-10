@@ -11,7 +11,7 @@
     "link"      : "plugin://plugin.video.amazon-test/",
     "steps"     : [
      "Search",
-     "@keyboard : {title}",
+     "@keyboard: {title}",
      "(?:{title}($$.*)+|{title|replace(&colon;, -)}($$.*)+)"
      ],
     "action"    : "PLAY"
@@ -24,7 +24,7 @@
     "link"      : "plugin://plugin.video.amazon-test/",
     "steps"     : [
      "Search",
-     "@keyboard : {clearname}",
+     "@keyboard: {clearname}",
      "{clearname} .*- Season {season}",
      "{episode} -.*"
      ],
