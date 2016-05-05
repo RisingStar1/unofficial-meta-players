@@ -17,7 +17,7 @@
  "tvshows"      : [
   [
    {
-    "link"      : "plugin://plugin.video.saltshd.lite/?ep_airdate={firstaired}&trakt_id={trakt}&episode={episode}&mode=get_sources&dialog=True&title={clearname}&ep_title={title}&season={season}&year={year}&video_type=Episode",
+    "link"      : "plugin://plugin.video.salts/?ep_airdate={firstaired}&trakt_id={trakt}&episode={episode}&mode=get_sources&dialog=True&title={clearname}&ep_title={title}&season={season}&year={year}&video_type=Episode",
     "steps"     : [],
     "action"    : "PLAY"
    }

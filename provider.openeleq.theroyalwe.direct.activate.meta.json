@@ -8,7 +8,7 @@
  "movies"       : [
   [
    {
-    "link"      : "plugin://plugin.video.theroyalwe/?imdb_id={imdb}&mode=get_movie_sources&title={title}&tmdb_id={tmdb}&year={year}",
+    "link"      : "plugin://plugin.video.theroyalwe/?imdb_id={imdb}&mode=get_movie_sources&title={title}&tmdb_id={id}&year={year}",
     "steps"     : [],
     "action"    : "ACTIVATE"
    }

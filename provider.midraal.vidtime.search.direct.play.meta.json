@@ -11,7 +11,7 @@
     "link"      : "plugin://plugin.video.VidTime/",
     "steps"     : [
      ".*SEARCH.*",
-     "@keyboard: {title}",
+     "keyboard:{title}",
      "$$B$${title}$$/B$$"
      ],
     "action"    : "PLAY"
@@ -24,7 +24,7 @@
     "link"      : "plugin://plugin.video.VidTime/",
     "steps"     : [
      ".*SEARCH.*",
-     "@keyboard: {clearname}",
+     "keyboard:{clearname}",
      "($$.*$$)+{clearname}$$($$.*$$)TV SERIES.*",
      ".*{clearname} S{season:02d}E{episode:02d}.*"
      ],

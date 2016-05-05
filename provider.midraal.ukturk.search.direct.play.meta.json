@@ -11,7 +11,7 @@
     "link"      : "plugin://plugin.video.ukturk",
     "steps"     : [
      "($$.*$$)*Search($$.*$$)*",
-     "@keyboard: {title}",
+     "keyboard:{title}",
      ".*{title}.*"
      ],
     "action"    : "PLAY"
@@ -24,7 +24,7 @@
     "link"      : "plugin://plugin.video.ukturk/",
     "steps"     : [
      "($$.*$$)*Search($$.*$$)*",
-     "@keyboard: {clearname}",
+     "keyboard:{clearname}",
      "($$.*$$)*{clearname}($$.*$$)*",
      ".*S{season:02d}E{episode:02d}.*"
      ],

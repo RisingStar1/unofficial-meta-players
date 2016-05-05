@@ -13,7 +13,7 @@
     "link"      : "plugin://plugin.video.lihattv/",
     "steps"     : [
      "search",
-     "@keyboard: {name}",
+     "@keyboard:{name}",
      "($$.*$$)*TV($$.*$$)*.*{basename}.*"
      ],
     "action"    : "PLAY"
